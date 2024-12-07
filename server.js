@@ -7,7 +7,6 @@ const passport = require('passport');
 const session = require('express-session');
 const authRoutes = require('./routes/authRoutes');
 const predictionRoutes = require('./routes/predictionRoutes');
-const express = require('express');
 
 
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
