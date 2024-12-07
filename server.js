@@ -46,7 +46,8 @@ app.use('/prediction', predictionRoutes);
 
 app.get('/', (req, res) => {
   res.send(`Welcome to DiabeSafe
-     <a> href='/auth/google'>Login with Google</a>
+        <br>
+        <a href='/auth/google'>Login with Google</a>
         <br>
         <a href='/auth/register'>Register</a>
         <br>
